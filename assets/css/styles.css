@@ -363,6 +363,7 @@ footer .wrapper{
 
 .image-expand{
     width: 0%;
+    height: 0%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -372,7 +373,8 @@ footer .wrapper{
 }
 
 .image-expand.active{
-    width: 85%;
+    width: 50%;
+    height: 50%;
 }
 
 .image-expand img{
